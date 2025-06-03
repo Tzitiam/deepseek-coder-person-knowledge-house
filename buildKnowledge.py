@@ -4,7 +4,7 @@ from chromadb.utils.embedding_functions import DefaultEmbeddingFunction
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import logging
-from a import BGEZhEmbeddingFunction
+from RAGModel import BGEZhEmbeddingFunction
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
