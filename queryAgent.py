@@ -4,7 +4,7 @@ import chromadb
 from typing import List, Dict
 import torch
 import os
-from a import BGEZhEmbeddingFunction
+from RAGModel import BGEZhEmbeddingFunction
 
 os.environ["CHROMA_DISABLE_DEFAULT_MODEL"] = "true"  #  必须在创建客户端前设置
 BGE_MODEL="./model_path/bge-small-zh-v1.5"
